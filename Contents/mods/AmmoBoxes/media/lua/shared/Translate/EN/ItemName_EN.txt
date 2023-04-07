@@ -1,0 +1,33 @@
+ItemName_EN = {
+
+ItemName_AmmunitionMod.223_Ammunition_Case = ".223 REM Case of 10 Boxes",
+ItemName_AmmunitionMod.308_Ammunition_Case = ".308 WIN Case of 10 Boxes",
+ItemName_AmmunitionMod.38Ammo_Ammunition_Case = ".38 Special Case of 10 Boxes",
+ItemName_AmmunitionMod.44Ammo_Ammunition_Case = ".44 Magnum Case of 10 Boxes",
+ItemName_AmmunitionMod.45Ammo_Ammunition_Case = ".45 ACP Case of 10 Boxes",
+ItemName_AmmunitionMod.9mmAmmo_Ammunition_Case = "9x19mm Case of 10 Boxes",
+ItemName_AmmunitionMod.556_Ammunition_Case = "5.56x45mm NATO Case of 10 Boxes",
+ItemName_AmmunitionMod.AmmunitionBox = "Ammunition Box",
+ItemName_AmmunitionMod.ShotgunShell_Ammunition_Case = "12 Gauge Shotgun Shells Case of 10 Boxes",
+
+ItemName_AmmunitionMod.22LRAmmo_Ammunition_Case = ".22 LR Case of 10 Boxes",
+ItemName_AmmunitionMod.57x28Ammo_Ammunition_Case = "5.7x28mm NATO Case of 10 Boxes",
+ItemName_AmmunitionMod.380ACPAmmo_Ammunition_Case = ".380 ACP Case of 10 Boxes",
+ItemName_AmmunitionMod.357MAGAmmo_Ammunition_Case = ".357 Magnum Case of 10 Boxes",
+ItemName_AmmunitionMod.45LCAmmo_Ammunition_Case = ".45 Long Colt Case of 10 Boxes",
+ItemName_AmmunitionMod.4570Ammo_Ammunition_Case = ".45-70 Govt Case of 10 Boxes",
+ItemName_AmmunitionMod.50MAGAmmo_Ammunition_Case = ".500 Magnum Case of 10 Boxes",
+ItemName_AmmunitionMod.410gAmmo_Ammunition_Case = ".410 Gauge Shotgun Shells Case of 10 Boxes",
+ItemName_AmmunitionMod.20SSAmmo_Ammunition_Case = "20 Gauge Shotgun Shells Case of 10 Boxes",
+ItemName_AmmunitionMod.10SSAmmo_Ammunition_Case = "10 Gauge Shotgun Shells Case of 10 Boxes",
+ItemName_AmmunitionMod.4SSAmmo_Ammunition_Case = "4 Gauge Shotgun Shells Case of 10 Boxes",
+ItemName_AmmunitionMod.545x39Ammo_Ammunition_Case = "5.45x39mm Case of 10 Boxes",
+ItemName_AmmunitionMod.762x39Ammo_Ammunition_Case = "7.62x39mm Case of 10 Boxes",
+ItemName_AmmunitionMod.762x51Ammo_Ammunition_Case = "7.62x51mm NATO Case of 10 Boxes",
+ItemName_AmmunitionMod.762x54RAmmo_Ammunition_Case = "7.62x54mmR Case of 10 Boxes",
+ItemName_AmmunitionMod.3006SPRGAmmo_Ammunition_Case = ".30-06 Springfield Case of 10 Boxes",
+ItemName_AmmunitionMod.50BMGAmmo_Ammunition_Case = ".50 Cal BMG Case of 10 Boxes",
+ItemName_AmmunitionMod.40HEAmmo_Ammunition_Case = "40mm HE Grenades Case of 20rnds",
+ItemName_AmmunitionMod.40INCAmmo_Ammunition_Case = "40mm Inc. Grenades Case of 20rnds",
+
+}

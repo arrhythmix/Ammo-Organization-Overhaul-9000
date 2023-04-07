@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fileGuidTable>
+
+	<files>
+		<path>media/clothing/clothingItems/Bag_AmmunitionBox_LHand.xml</path>
+		<guid>904541ec-c70e-5a97-e532-ed66f8995685</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_AmmunitionBox_RHand.xml</path>
+		<guid>769a661f-3078-1d3d-2669-6afbc62bf02c</guid>
+	</files>
+
+</fileGuidTable>

@@ -1,0 +1,42 @@
+
+/*** Ammunition of Box & Cardboard Case MOD add item ***/
+
+/*** 2022-01-04 Version 1.03 ***/
+
+module Base
+	{
+	model Ammunition_Box
+	{
+		mesh = WorldItems/Ammunition_Box,
+		texture = WorldItems/Ammunition_Box,
+		scale = 0.4,
+    }
+
+	model Ammunition_Pistol_Box_Case
+	{
+		mesh = WorldItems/Pistol_Box_Case,
+		texture = WorldItems/Pistol_Box_Case,
+		scale = 1.0,
+    }
+
+	model Ammunition_Shells_Box_Case
+	{
+		mesh = WorldItems/Shells_Box_Case,
+		texture = WorldItems/Shells_Box_Case,
+		scale = 1.0,
+    }
+
+	model Ammunition_Rifle_Box_Case
+	{
+		mesh = WorldItems/Rifle_Box_Case,
+		texture = WorldItems/Rifle_Box_Case,
+		scale = 1.0,
+	}
+
+	model Ammunition_556_Box_Case
+	{
+		mesh = WorldItems/556_Box_Case,
+		texture = WorldItems/556_Box_Case,
+		scale = 1.0,
+    }
+}

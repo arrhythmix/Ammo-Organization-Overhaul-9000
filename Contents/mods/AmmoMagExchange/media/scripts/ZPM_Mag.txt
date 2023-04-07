@@ -1,0 +1,190 @@
+module Base
+{
+ recipe  308Clip
+	{
+		M14Clip/308StrClip/308StdClip,
+		
+
+		Result 		: 308Clip,
+		Time 		: 1,
+		Category 		: ZPMMag,
+		CanBeDoneFromFloor 		: FALSE,
+	}
+
+ recipe  M14Clip
+	{
+		1903Clip/308StrClip/308Clip/308StdClip,
+		
+
+		Result 		: M14Clip,
+		Time 		: 1,
+		Category 		: ZPMMag,
+		CanBeDoneFromFloor 		: FALSE,
+	}
+
+ recipe  45Clip
+	{
+		45LCSeed,
+		
+
+		Result 		: 45Clip,
+		Time 		: 1,
+		Category 		: ZPMMag,
+		CanBeDoneFromFloor 		: FALSE,
+	}
+
+ recipe  SPASClip
+	{
+		SRM1208_Cylinder/SRM1212_Cylinder/SRM1216_Cylinder,
+		
+
+		Result 		: SPASClip,
+		Time 		: 1,
+		Category 		: ZPMMag,
+		CanBeDoneFromFloor 		: FALSE,
+	}
+
+ recipe  308StrClip
+	{
+		308Clip/M14Clip/1903Clip/M1Clip/3006ExtClip,
+		
+
+		Result 		: 308StrClip,
+		Time 		: 1,
+		Category 		: ZPMMag,
+		CanBeDoneFromFloor 		: FALSE,
+	}
+
+ recipe  308StdClip
+	{
+		308Clip/M14Clip/1903Clip/308StrClip/308Clip/M1Clip,
+		
+
+		Result 		: 308StdClip,
+		Time 		: 1,
+		Category 		: ZPMMag,
+		CanBeDoneFromFloor 		: FALSE,
+	}
+
+ recipe  556Clip
+	{
+		223Clip/223StdClip,
+		
+
+		Result 		: 556Clip,
+		Time 		: 1,
+		Category 		: ZPMMag,
+		CanBeDoneFromFloor 		: FALSE,
+	}
+ recipe  P90Clip
+	{
+		9mmDrum,
+		
+
+		Result 		: P90Clip,
+		Time 		: 1,
+		Category 		: ZPMMag,
+		CanBeDoneFromFloor 		: FALSE,
+	}
+
+ recipe  SKSClip
+	{
+		AKClip,
+		
+
+		Result 		: SKSClip,
+		Time 		: 1,
+		Category 		: ZPMMag,
+		CanBeDoneFromFloor 		: FALSE,
+	}
+
+ recipe  SVDClip
+	{
+		MosinClip,
+		
+
+		Result 		: SVDClip,
+		Time 		: 1,
+		Category 		: ZPMMag,
+		CanBeDoneFromFloor 		: FALSE,
+	}
+
+
+ recipe  MosinClip
+	{
+		SVDClip,
+		
+
+		Result 		: MosinClip,
+		Time 		: 1,
+		Category 		: ZPMMag,
+		CanBeDoneFromFloor 		: FALSE,
+	}
+	
+recipe  M1Clip
+	{
+		308Clip/M14Clip/308StrClip/308Clip/308StdClip,
+		
+
+		Result 		: M1Clip,
+		Time 		: 1,
+		Category 		: ZPMMag,
+		CanBeDoneFromFloor 		: FALSE,
+	}
+	
+recipe  ASVALClip
+	{
+		VSSClip,
+		
+
+		Result 		: ASVALClip,
+		Time 		: 1,
+		Category 		: ZPMMag,
+		CanBeDoneFromFloor 		: FALSE,
+	}
+	
+recipe  VSSClip
+	{
+		ASVALClip,
+		
+
+		Result 		: VSSClip,
+		Time 		: 1,
+		Category 		: ZPMMag,
+		CanBeDoneFromFloor 		: FALSE,
+	}
+
+Recipe  357Speed
+	{
+		38Speed/44Speed/45LCSeed,
+		
+
+		Result 		: 357Speed,
+		Time 		: 1,
+		Category 		: ZPMMag,
+		CanBeDoneFromFloor 		: FALSE,
+	}
+	
+recipe  38Speed
+	{
+		357Speed/44Speed/45LCSeed,
+		
+
+		Result 		: 38Speed,
+		Time 		: 1,
+		Category 		: ZPMMag,
+		CanBeDoneFromFloor 		: FALSE,
+	}
+	
+recipe  44Speed
+	{
+		357Speed/38Speed/45LCSeed,
+		
+
+		Result 		: 44Speed,
+		Time 		: 1,
+		Category 		: ZPMMag,
+		CanBeDoneFromFloor 		: FALSE,
+	}
+
+}

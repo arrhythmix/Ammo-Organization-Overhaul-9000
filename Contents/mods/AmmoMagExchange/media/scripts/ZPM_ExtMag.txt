@@ -1,0 +1,165 @@
+module Base
+{
+
+ recipe  3006ExtClip
+	{
+		1903Clip=2,
+
+		Result 		: 3006ExtClip,
+		Time 		: 1,
+		Category 		: ZPMExtMag,
+		CanBeDoneFromFloor 		: FALSE,
+	}
+
+ recipe  308ExtClip
+	{
+		308Clip=2,
+
+		Result 		: 308ExtClip,
+		Time 		: 1,
+		Category 		: ZPMExtMag,
+		CanBeDoneFromFloor 		: FALSE,
+	}
+
+ recipe  380ExtClip
+	{
+		380Clip=2,
+
+		Result 		: 380ExtClip,
+		Time 		: 1,
+		Category 		: ZPMExtMag,
+		CanBeDoneFromFloor 		: FALSE,
+	}
+
+ recipe  45DSExtClip
+	{
+		45DSClip=2,
+
+		Result 		: 45DSExtClip,
+		Time 		: 1,
+		Category 		: ZPMExtMag,
+		CanBeDoneFromFloor 		: FALSE,
+	}
+
+ recipe  45ExtClip
+	{
+		45Clip=2,
+
+		Result 		: 45ExtClip,
+		Time 		: 1,
+		Category 		: ZPMExtMag,
+		CanBeDoneFromFloor 		: FALSE,
+	}
+
+ recipe  9mmExtClip
+	{
+		9mmClip=2,
+		Result 		: 9mmExtClip,
+		Time 		: 1,
+		Category 		: ZPMExtMag,
+		CanBeDoneFromFloor 		: FALSE,
+	}
+
+	 recipe  12gDrum
+	{
+		SPASClip=3,
+
+		Result 		: 12gDrum,
+		Time 		: 1,
+		Category 		: ZPMExtMag,
+		CanBeDoneFromFloor 		: FALSE,
+	}
+
+	
+	 recipe  45Drum
+	{
+		45DSExtClip=2,
+
+		Result 		: 45Drum,
+		Time 		: 1,
+		Category 		: ZPMExtMag,
+		CanBeDoneFromFloor 		: FALSE,
+	}
+	
+	 recipe  545Drum
+	{
+		545StdClip=2,
+
+		Result 		: 545Drum,
+		Time 		: 1,
+		Category 		: ZPMExtMag,
+		CanBeDoneFromFloor 		: FALSE,
+	}
+	
+	 recipe  556Drum
+	{
+		556Clip=2,
+
+		Result 		: 556Drum,
+		Time 		: 1,
+		Category 		: ZPMExtMag,
+		CanBeDoneFromFloor 		: FALSE,
+	}
+	
+	 recipe  762Drum
+	{
+		AKClip=3,
+
+		Result 		: 762Drum,
+		Time 		: 1,
+		Category 		: ZPMExtMag,
+		CanBeDoneFromFloor 		: FALSE,
+	}
+	
+	recipe  9mmDrum
+	{
+		9mmExtClip=2,
+
+		Result 		: 9mmDrum,
+		Time 		: 1,
+		Category 		: ZPMExtMag,
+		CanBeDoneFromFloor 		: FALSE,
+	}
+
+	recipe  308Belt
+	{
+		762x54rBelt,
+
+		Result 		: 308Belt,
+		Time 		: 1,
+		Category 		: ZPMExtMag,
+		CanBeDoneFromFloor 		: FALSE,
+	}
+	
+	
+	recipe  762x39Belt
+	{
+		AKClip=3,
+
+		Result 		: 762x39Belt,
+		Time 		: 1,
+		Category 		: ZPMExtMag,
+		CanBeDoneFromFloor 		: FALSE,
+	}
+	
+	recipe  762x54rBelt
+	{
+		308Belt,
+
+		Result 		: 762x54rBelt,
+		Time 		: 1,
+		Category 		: ZPMExtMag,
+		CanBeDoneFromFloor 		: FALSE,
+	}
+	
+	recipe  556Belt
+	{
+		556Clip=3,
+
+		Result 		: 556Belt,
+		Time 		: 1,
+		Category 		: ZPMExtMag,
+		CanBeDoneFromFloor 		: FALSE,
+	}
+
+}

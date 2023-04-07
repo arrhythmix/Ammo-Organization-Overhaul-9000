@@ -1,0 +1,100 @@
+module Base
+{
+	
+recipe  223 REM Exchange to 556
+	{
+		223Box,
+
+		Result 		: 556Box,
+		Time 		: 1,
+		Category 		: ZPMBoxAmmo,
+		CanBeDoneFromFloor 		: FALSE,
+	}
+
+recipe  556 Exchange to 223 REM
+	{
+		556Box,
+
+		Result 		: 223Box,
+		Time 		: 1,
+		Category 		: ZPMBoxAmmo,
+		CanBeDoneFromFloor 		: FALSE,
+	}
+
+recipe  308 WIN Box Exchange
+	{
+		3006Box/762x51Box,
+
+		Result 		: 308Box,
+		Time 		: 1,
+		Category 		: ZPMBoxAmmo,
+		CanBeDoneFromFloor 		: FALSE,
+	}
+
+recipe  30-06 Springfield Box Exchange
+	{
+		308Box/762x51Box,
+		
+
+		Result 		: 3006Box,
+		Time 		: 1,
+		Category 		: ZPMBoxAmmo,
+		CanBeDoneFromFloor 		: FALSE,
+	}
+
+recipe  38 Special Box Exchange to 357 MAG 
+	{
+		Bullets38Box,
+		
+
+		Result 		: Bullets357Box,
+		Time 		: 1,
+		Category 		: ZPMBoxAmmo,
+		CanBeDoneFromFloor 		: FALSE,
+	}
+
+recipe  357 MAG Box Exchange to 38 Special
+	{
+		Bullets357Box,
+		
+
+		Result 		: Bullets38Box,
+		Time 		: 1,
+		Category 		: ZPMBoxAmmo,
+		CanBeDoneFromFloor 		: FALSE,
+	}
+
+recipe  Bullets45LCBox Exchange
+	{
+		Bullets45Box,
+		
+
+		Result 		: Bullets45LCBox,
+		Time 		: 1,
+		Category 		: ZPMBoxAmmo,
+		CanBeDoneFromFloor 		: FALSE,
+	}
+
+recipe  762x51Box
+	{
+		308Box,
+		
+
+		Result 		: 762x51Box,
+		Time 		: 1,
+		Category 		: ZPMBoxAmmo,
+		CanBeDoneFromFloor 		: FALSE,
+	}
+	
+recipe  ShotgunShellsBox
+	{
+		10gShotgunShellsBox/20gShotgunShellsBox/410gShotgunShellsBox,
+		
+
+		Result 		: ShotgunShellsBox,
+		Time 		: 1,
+		Category 		: ZPMBoxAmmo,
+		CanBeDoneFromFloor 		: FALSE,
+	}
+
+}

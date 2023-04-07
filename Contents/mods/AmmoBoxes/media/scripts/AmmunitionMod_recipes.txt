@@ -1,0 +1,447 @@
+
+/*** Ammunition of Box & Cardboard Case MOD ***/
+
+/*** 2022-01-04 Version 1.03 ***/
+
+
+module AmmunitionMod
+
+{
+	imports
+	{
+	Base
+	}
+
+
+recipe Place Box of 9mm Bullets in Case
+	{
+	Bullets9mmBox=10,
+	Result:9mmAmmo_Ammunition_Case,
+	Sound:PZ_PutInBag,
+	Time:5.0,
+	}
+
+recipe Open Case of 9mm Bullets
+	{
+	9mmAmmo_Ammunition_Case,
+	Result:Bullets9mmBox=10,
+	Sound:PZ_PutInBag,
+	Time:5.0,
+	}
+
+recipe Place Box of 45 ACP Bullets in Case
+	{
+	Bullets45Box=10,
+	Result:45Ammo_Ammunition_Case,
+	Sound:PZ_PutInBag,
+	Time:5.0,
+	}
+
+recipe Open Case of 45 ACP Bullets
+	{
+	45Ammo_Ammunition_Case,
+	Result:Bullets45Box=10,
+	Sound:PZ_PutInBag,
+	Time:5.0,
+	}
+
+recipe Place Box of 44 Magnum Bullets in Case
+	{
+	Bullets44Box=10,
+	Result:44Ammo_Ammunition_Case,
+	Sound:PZ_PutInBag,
+	Time:5.0,
+	}
+
+recipe Open Case of 44 Magnum Bullets
+	{
+	44Ammo_Ammunition_Case,
+	Result:Bullets44Box=10,
+	Sound:PZ_PutInBag,
+	Time:5.0,
+	}
+
+recipe Place Box of 38 Special Bullets in Case
+	{
+	Bullets38Box=10,
+	Result:38Ammo_Ammunition_Case,
+	Sound:PZ_PutInBag,
+	Time:5.0,
+	}
+
+recipe Open Case of 38 Special Bullets
+	{
+	38Ammo_Ammunition_Case,
+	Result:Bullets38Box=10,
+	Sound:PZ_PutInBag,
+	Time:5.0,
+	}
+
+recipe Place Shotgun Shells in Case
+	{
+	ShotgunShellsBox=10,
+	Result:ShotgunShell_Ammunition_Case,
+	Sound:PZ_PutInBag,
+	Time:5.0,
+	}
+
+recipe Open Case of Shotgun Shells
+	{
+	ShotgunShell_Ammunition_Case,
+	Result:ShotgunShellsBox=10,
+	Sound:PZ_PutInBag,
+	Time:5.0,
+	}
+
+recipe Place Box of 223 Bullets in Case
+	{
+	223Box=10,
+	Result:223_Ammunition_Case,
+	Sound:PZ_PutInBag,
+	Time:5.0,
+	}
+
+recipe Open Case of 223 Bullets
+	{
+	223_Ammunition_Case,
+	Result:223Box=10,
+	Sound:PZ_PutInBag,
+	Time:5.0,
+	}
+
+recipe Place Box of 308 Bullets in Case
+	{
+	308Box=10,
+	Result:308_Ammunition_Case,
+	Sound:PZ_PutInBag,
+	Time:5.0,
+	}
+
+recipe Open Case of 308 Bullets
+	{
+	308_Ammunition_Case,
+	Result:308Box=10,
+	Sound:PZ_PutInBag,
+	Time:5.0,
+	}
+
+recipe Place Box of 556 Bullets in Case
+	{
+	556Box=10,
+	Result:556_Ammunition_Case,
+	Sound:PZ_PutInBag,
+	Time:5.0,
+	}
+
+recipe Open Case of 556 Bullets
+	{
+	556_Ammunition_Case,
+	Result:556Box=10,
+	Sound:PZ_PutInBag,
+	Time:5.0,
+	}
+
+recipe Place Boxes of 22LR Bullets in Case
+		{
+			Bullets22Box=10,
+			Result:22LRAmmo_Ammunition_Case,
+			Sound:PZ_PutInBag,
+			Time:5.0,
+		}
+
+recipe Open Case of 22LR Bullets
+		{
+			22LRAmmo_Ammunition_Case,
+			Result:Bullets22Box=10,
+			Sound:PZ_PutInBag,
+			Time:5.0,
+		}
+
+recipe Place Boxes of 57x28 Bullets in Case
+		{
+			Bullets57Box=10,
+			Result:57x28Ammo_Ammunition_Case,
+			Sound:PZ_PutInBag,
+			Time:5.0,
+		}
+
+recipe Open Case of 57x28 Bullets
+		{
+			57x28Ammo_Ammunition_Case,
+			Result:Bullets57Box=10,
+			Sound:PZ_PutInBag,
+			Time:5.0,
+		}
+
+recipe Place Boxes of 380 ACP Bullets in Case
+		{
+			Bullets380Box=10,
+			Result:380ACPAmmo_Ammunition_Case,
+			Sound:PZ_PutInBag,
+			Time:5.0,
+		}
+
+recipe Open Case of 380 ACP Bullets
+		{
+			380ACPAmmo_Ammunition_Case,
+			Result:Bullets380Box=10,
+			Sound:PZ_PutInBag,
+			Time:5.0,
+		}
+
+recipe Place Boxes of 357 MAG Bullets in Case
+		{
+			Bullets357Box=10,
+			Result:357MAGAmmo_Ammunition_Case,
+			Sound:PZ_PutInBag,
+			Time:5.0,
+		}
+
+recipe Open Case of 357 MAG Bullets
+		{
+			357MAGAmmo_Ammunition_Case,
+			Result:Bullets357Box=10,
+			Sound:PZ_PutInBag,
+			Time:5.0,
+		}
+
+recipe Place Boxes of 45 LC Bullets in Case
+		{
+			Bullets45LCBox=10,
+			Result:45LCAmmo_Ammunition_Case,
+			Sound:PZ_PutInBag,
+			Time:5.0,
+		}
+
+recipe Open Case of 45 LC Bullets
+		{
+			45LCAmmo_Ammunition_Case,
+			Result:Bullets45LCBox=10,
+			Sound:PZ_PutInBag,
+			Time:5.0,
+		}
+
+recipe Place Boxes of 45-70 GOVT Bullets in Case
+		{
+			Bullets4570Box=10,
+			Result:4570Ammo_Ammunition_Case,
+			Sound:PZ_PutInBag,
+			Time:5.0,
+		}
+
+recipe Open Case of 45-70 GOVT Bullets
+		{
+			4570Ammo_Ammunition_Case,
+			Result:Bullets4570Box=10,
+			Sound:PZ_PutInBag,
+			Time:5.0,
+		}
+
+recipe Place Boxes of 50 MAG Bullets in Case
+		{
+			Bullets50MAGBox=10,
+			Result:50MAGAmmo_Ammunition_Case,
+			Sound:PZ_PutInBag,
+			Time:5.0,
+		}
+
+recipe Open Case of 50 MAG Bullets
+		{
+			50MAGAmmo_Ammunition_Case,
+			Result:Bullets50MAGBox=10,
+			Sound:PZ_PutInBag,
+			Time:5.0,
+		}
+
+recipe Place Boxes of 410 Gauge Shotgun Shells in Case
+		{
+			410gShotgunShellsBox=10,
+			Result:410gAmmo_Ammunition_Case,
+			Sound:PZ_PutInBag,
+			Time:5.0,
+		}
+
+recipe Open Case of 410 Gauge Shotgun Shells
+		{
+			410gAmmo_Ammunition_Case,
+			Result:410gShotgunShellsBox=10,
+			Sound:PZ_PutInBag,
+			Time:5.0,
+		}
+
+recipe Place Boxes of 20 Gauge Shotgun Shells in Case
+		{
+			20gShotgunShellsBox=10,
+			Result:20SSAmmo_Ammunition_Case,
+			Sound:PZ_PutInBag,
+			Time:5.0,
+		}
+
+recipe Open Case of 20 Gauge Shotgun Shells
+		{
+			20SSAmmo_Ammunition_Case,
+			Result:20gShotgunShellsBox=10,
+			Sound:PZ_PutInBag,
+			Time:5.0,
+		}
+
+recipe Place Boxes of 10 Gauge Shotgun Shells in Case
+		{
+			10gShotgunShellsBox=10,
+			Result:10SSAmmo_Ammunition_Case,
+			Sound:PZ_PutInBag,
+			Time:5.0,
+		}
+
+recipe Open Case of 10 Gauge Shotgun Shells
+		{
+			10SSAmmo_Ammunition_Case,
+			Result:10gShotgunShellsBox=10,
+			Sound:PZ_PutInBag,
+			Time:5.0,
+		}
+
+recipe Place Boxes of 4 Gauge Shotgun Shells in Case
+		{
+			4gShotgunShellsBox=10,
+			Result:4SSAmmo_Ammunition_Case,
+			Sound:PZ_PutInBag,
+			Time:5.0,
+		}
+
+recipe Open Case of 4 Gauge Shotgun Shells
+		{
+			4SSAmmo_Ammunition_Case,
+			Result:4gShotgunShellsBox=10,
+			Sound:PZ_PutInBag,
+			Time:5.0,
+		}
+
+recipe Place Boxes of 545x39mm Bullets in Case
+		{
+			545x39Box=10,
+			Result:545x39Ammo_Ammunition_Case,
+			Sound:PZ_PutInBag,
+			Time:5.0,
+		}
+
+recipe Open Case of 545x39mm Bullets
+		{
+			545x39Ammo_Ammunition_Case,
+			Result:545x39Box=10,
+			Sound:PZ_PutInBag,
+			Time:5.0,
+		}
+
+recipe Place Boxes of 762x39mm Bullets in Case
+		{
+			762x39Box=10,
+			Result:762x39Ammo_Ammunition_Case,
+			Sound:PZ_PutInBag,
+			Time:5.0,
+		}
+
+recipe Open Case of 762x39mm Bullets
+		{
+			762x39Ammo_Ammunition_Case,
+			Result:762x39Box=10,
+			Sound:PZ_PutInBag,
+			Time:5.0,
+		}
+
+recipe Place Boxes of 762x51mm Bullets in Case
+		{
+			762x51Box=10,
+			Result:762x51Ammo_Ammunition_Case,
+			Sound:PZ_PutInBag,
+			Time:5.0,
+		}
+
+recipe Open Case of 762x51mm Bullets
+		{
+			762x51Ammo_Ammunition_Case,
+			Result:762x51Box=10,
+			Sound:PZ_PutInBag,
+			Time:5.0,
+		}
+
+recipe Place Boxes of 762x54mmR Bullets in Case
+		{
+			762x54rBox=10,
+			Result:762x54RAmmo_Ammunition_Case,
+			Sound:PZ_PutInBag,
+			Time:5.0,
+		}
+
+recipe Open Case of 762x54mmR Bullets
+		{
+			762x54RAmmo_Ammunition_Case,
+			Result:762x54rBox=10,
+			Sound:PZ_PutInBag,
+			Time:5.0,
+		}
+
+recipe Place Boxes of 30-06 SPRG Bullets in Case
+		{
+			3006Box=10,
+			Result:3006SPRGAmmo_Ammunition_Case,
+			Sound:PZ_PutInBag,
+			Time:5.0,
+		}
+
+recipe Open Case of 30-06 SPRG Bullets
+		{
+			3006SPRGAmmo_Ammunition_Case,
+			Result:3006Box=10,
+			Sound:PZ_PutInBag,
+			Time:5.0,
+		}
+
+recipe Place Boxes of 50 BMG Bullets in Case
+		{
+			50BMGBox=10,
+			Result:50BMGAmmo_Ammunition_Case,
+			Sound:PZ_PutInBag,
+			Time:5.0,
+		}
+
+recipe Open Case of 50 BMG Bullets
+		{
+			50BMGAmmo_Ammunition_Case,
+			Result:50BMGBox=10,
+			Sound:PZ_PutInBag,
+			Time:5.0,
+		}
+
+recipe Place 40mm HE Grenades in Case
+		{
+			40HERound=20,
+			Result:40HEAmmo_Ammunition_Case,
+			Sound:PZ_PutInBag,
+			Time:5.0,
+		}
+
+recipe Open Case of 40mm HE Grenades
+		{
+			40HEAmmo_Ammunition_Case,
+			Result:40HERound=20,
+			Sound:PZ_PutInBag,
+			Time:5.0,
+		}
+
+recipe Place 40mm INC Grenades in Case
+		{
+			40INCRound=20,
+			Result:40INCAmmo_Ammunition_Case,
+			Sound:PZ_PutInBag,
+			Time:5.0,
+		}
+
+recipe Open Case of 40mm INC Grenades
+		{
+			40INCAmmo_Ammunition_Case,
+			Result:40INCRound=20,
+			Sound:PZ_PutInBag,
+			Time:5.0,
+		}
+	}
