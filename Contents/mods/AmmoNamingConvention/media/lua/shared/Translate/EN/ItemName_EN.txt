@@ -1,58 +1,155 @@
 ItemName_EN = {
 
+-- 9x19mm Luger
 ItemName_Base.Bullets9mm = "9x19mm",
 ItemName_Base.Bullets9mmBox = "9x19mm Box",
+ItemName_Base.9mmExtClip = "9x19mm 2x Stack Ext Mag [30rnd]",
+ItemName_Base.9mmClip = "9x19mm 2x Stack Std Mag [15rnd]",
+ItemName_Base.9mmDrum = "9x19mm Drum Mag [60rnd]",
+ItemName_Base.SSExtClip = "9x19mm 1x Stack Std Mag [10rnd]",
+ItemName_Base.SSClip = "9x19mm 1x Stack Ext Mag [20rnd]",
+
+-- .38 Special
 ItemName_Base.Bullets38 = ".38 Special",
-ItemName_Base.Bullets38Box =".38 Special Box",
+ItemName_Base.Bullets38Box = ".38 Special Box",
+ItemName_Base.38Speed = ".38 Special Speed Loader",
+
+-- .45 ACP
 ItemName_Base.Bullets45 = ".45 ACP",
 ItemName_Base.Bullets45Box = ".45 ACP Box",
+ItemName_Base.45DSExtClip = ".45 ACP 2x Stack Ext Mag [24rnd]",
+ItemName_Base.45DSClip =  ".45 ACP 2x Stack Std Mag [13rnd]",
+ItemName_Base.45Drum = ".45 ACP  Drum Mag [40rnd]",
+ItemName_Base.45ExtClip= ".45 ACP 1x Stack Std Mag [15rnd]",
+
+-- .44 Magnum
 ItemName_Base.Bullets44 = ".44 Magnum",
 ItemName_Base.Bullets44Box = ".44 Magnum Box",
-ItemName_Base.ShotgunShells = "12 Gauge Shells",
-ItemName_Base.ShotgunShellsBox = "12 Gauge Box",
+ItemName_Base.44Speed = ".44 Magnum Speed Loader",
+
+-- 12 Gauge Shotgun
+ItemName_Base.ShotgunShells = "12 Gauge Shotgun Shells",
+ItemName_Base.ShotgunShellsBox = "12 Gauge Shotgun Box",
+ItemName_Base.12gDrum = "12 Gauge Shotgun Drum [20rnd]",
+ItemName_Base.SPASClip = "12 Gauge Shotgun Std Mag [7rnd]",
+
+-- .223 Remington
 ItemName_Base.223Bullets = ".223 REM",
 ItemName_Base.223Box = ".223 REM Box",
+ItemName_Base.223Clip = ".223 REM Std Hunting Mag [3rnd]",
+ItemName_Base.223StdClip = ".223 REM Std Mag [10rnd]",
+ItemName_Base.223ExtClip =.223 REM Ext Mag [20rnd]",
+
+-- .308 Winchester
 ItemName_Base.308Bullets = ".308 WIN",
 ItemName_Base.308Box = ".308 WIN Box",
+ItemName_Base.308Belt = ".308 WIN Belt [100rnd]",
+ItemName_Base.308StrClip = ".308 Win Stripper Clip [5rnd]",
+ItemName_Base.308Clip = ".308 Win Hunting Mag [3rnd]",
+ItemName_Base.308MiniCan = ".308 Win Minigun Canister [320rnd]",
+ItemName_Base.308ExtClip = ".308 Win Ext Mag [20rnd]",
+ItemName_Base.308StdClip = ".308 Win Std Mag [10rnd]",
+
+-- 5.56x45 [NATO]
 ItemName_Base.556Bullets = "5.56x45mm NATO",
 ItemName_Base.556Box = "5.56x45mm NATO Box",
+ItemName_Base.556Belt = "5.56x45 NATO Belt Mag [100rnd]",
+ItemName_Base.556Drum = "5.56x45 NATO Drum Mag [60rnd]",
+ItemName_Base.556Clip = "5.56x45 NATO STANAG Mag [30rnd]",
+ItemName_Base.556MiniCan = "5.56x45 NATO Minigun Canister [520rnd]",
+
+-- .22 LR
 ItemName_Base.Bullets22 = ".22 LR",
 ItemName_Base.Bullets22Box = ".22 LR Box",
-ItemName_Base.22Drum = ".22 LR Drum Magazine",
-ItemName_Base.22ExtClip =".22 LR Extended Magazine",
+ItemName_Base.22Drum = ".22 LR Drum Magazine [100rnd]",
+ItemName_Base.22Clip =".22 LR Std Mag [10rnd]",
+ItemName_Base.22ExtClip =".22 LR Ext Mag [25rnd]",
+
+-- .380 ACP
 ItemName_Base.Bullets380 = ".380 ACP",
 ItemName_Base.Bullets380Box = ".380 ACP Box ",
+ItemName_Base.380ExtClip = ".380 ACP 2x Stack Ext Mag [30rnd]",
+ItemName_Base.380StdClip = ".380 ACP 2x Stack Std Mag [15rnd]",
+ItemName_Base.380Clip = ".380 ACP 1x Stack Std Mag [7rnd]",
+
+
+-- 5.7x28mm [NATO]
 ItemName_Base.Bullets57 = "5.7x28mm NATO",
 ItemName_Base.Bullets57Box = "5.7x28mm NATO Box",
+ItemName_Base.57Clip = "5.7x28mm NATO Std Mag [20rnd]",
+ItemName_Base.P90Clip = "5.7x28mm NATO P90 Mag [50rnd]",
+
+-- .357 Magnum
 ItemName_Base.Bullets357 = ".357 Magnum",
 ItemName_Base.Bullets357Box = ".357 Magnum Box",
+ItemName_Base.357Speed = ".357 Magnum Speed Loader",
+
+-- .45 Long Colt
 ItemName_Base.Bullets45LC = ".45 Long Colt",
 ItemName_Base.Bullets45LCBox = ".45 Long Colt Box",
+ItemName_Base.45LCSpeed = ".45 Long Colt Speed Loader",
+
+-- .45-70 Government
 ItemName_Base.Bullets4570 = ".45-70 Govt",
 ItemName_Base.Bullets4570Box = ".45-70 Govt Box",
+
+-- .500 Magnum 
 ItemName_Base.Bullets50MAG = ".500 Magnum",
 ItemName_Base.Bullets50MAGBox = ".500 Magnum Box",
+
+-- .410 Gauge Shotgun
 ItemName_Base.410gShotgunShells = ".410 Gauge",
 ItemName_Base.410gShotgunShellsBox = ".410 Gauge Box",
+
+-- 20 Gauge Shotgun
 ItemName_Base.20gShotgunShells = "20 Gauge",
 ItemName_Base.20gShotgunShellsBox = "20 Gauge Box",
+
+-- 10 Gauge Shotgun
 ItemName_Base.10gShotgunShells = "10 Gauge",
 ItemName_Base.10gShotgunShellsBox = "10 Gauge Box",
+
+-- 4 Gauge Shotgun
 ItemName_Base.4gShotgunShells = "4 Gauge",
 ItemName_Base.4gShotgunShellsBox = "4 Gauge Box",
+
+-- 5.45x39mm [CSTO]
 ItemName_Base.545x39Bullets = "5.45x39mm",
 ItemName_Base.545x39Box = "5.45x39mm Box",
+ItemName_Base.545StdClip = "5.45x39mm Std Mag [30rnd]",
+ItemName_Base.545Drum = "5.45x39mm Drum Mag [95rnd]",
+
+-- 7.62x39mm [CSTO]
 ItemName_Base.762x39Bullets = "7.62x39mm",
 ItemName_Base.762x39Box = "7.62x39mm Box",
+ItemName_Base.762Drum = "7.62x39mm Drum Mag [75rnd]",
+ItemName_Base.AKClip = "7.62x39mm Std Mag [30rnd]", 
+ItemName_Base.SKSClip = "7.62x39mm SKS Clip [10rnd]",
+
+-- 7.62x51mm [NATO]
 ItemName_Base.762x51Bullets = "7.62x51mm NATO",
 ItemName_Base.762x51Box = "7.62x51mm NATO Box",
+
+-- 7.62x54mmR [CSTO]
 ItemName_Base.762x54rBullets = "7.62x54mmR",
 ItemName_Base.762x54rBox = "7.62x54mmR Box",
+ItemName_Base.SVDClip = "7.62x54mmR SVD Magazine [10rnd]",
+ItemName_Base.MosinClip = "7.62x54mmR Mosin Clip [5rnd]",
+ItemName_Base.762x54rBelt = "7.62x54mmR PKM Box Mag [100rnd]",
+
+-- .30-06 Springfield
 ItemName_Base.3006Bullets = ".30-06 Springfield",
 ItemName_Base.3006Box = ".30-06 Springfield Box",
+ItemName_Base.3006Box = ".30-06 Springfield Stripper Clip [5rnd]",
+ItemName_Base.3006Box = ".30-06 Springfield Std Mag [20rnd]",
+
+-- .50 Cal BMG (12.7x99 NATO) 
 ItemName_Base.50BMGBullets = ".50 Cal BMG",
 ItemName_Base.50BMGBox = ".50 Cal BMG Box",
+ItemName_Base.50MiniCan = ".50 Cal BMG Minigun Canister [160rnd]",
+ItemName_Base.M82Clip = ".50 Cal BMG Std Mag [10rnd]",
+
+-- 40mm Nades
 ItemName_Base.40HERound = "40mm HE",
 ItemName_Base.40INCRound = "40mm INC",
-
 }
