@@ -1,3 +1,4 @@
+---@diagnostic disable: duplicate-index
 require 'NATT_SupportedMods'
 
 local attachments = {
@@ -266,5 +267,5 @@ end
 
 if isModActivated(NATTmods.AmmoBoxes9000) then
 	Tweaker("AmmunitionMod.Ammunition_Box","IconsForTexture", "Ammobox");
-
+    Tweaker("AmmunitionMod.Ammunition_Box","AttachmentType", "Container");
 end
