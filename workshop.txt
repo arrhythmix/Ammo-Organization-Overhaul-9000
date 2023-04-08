@@ -82,12 +82,12 @@ description=    [/tr]
 description=[/table]
 description=
 description=_________________________________________________
+description=
 description=[h3] Recommended Load Order [/h3]
 description=Any Weapon/Ammo Mod > Better Sorting > AmmoBoxes9000 > AmmoME > AmmoNC
+description=_________________________________________________
 description=
-description=
-description=
-description=
+description=[h1][url=https://github.com/arrhythmix/Ammo-Organization-Overhaul-9000] Github [/url]
 description=_________________________________________________
 tags=Build 41;Interface;Items;Language/Translation;Misc;Weapons
 visibility=unlisted
