@@ -1,7 +1,8 @@
 version=1
 id=2958599511
-title=Ammo Organization Overhaul 9000
+title=Ammo Organization Overhaul 9000 [Development Branch]
 description=[h1]This is my first public mod created for personal use on a private server, not sure about permissions and credits work on PZ Workshop but here's what this mod does:[/h1]
+description=[h2]This is a development branch, github repro below, feel free to submit commits, especially for mod support and localization[/h2]
 description=
 description=Using Ammunition Box & Crate, patached with Brita/Arsenal26, using standard weights of ammoboxes, a case of 10 boxes reduces the weight of 10 boxes by 10% when put into a case:
 description=[code]
@@ -90,4 +91,4 @@ description=
 description=[h1][url=https://github.com/arrhythmix/Ammo-Organization-Overhaul-9000] Github [/url]
 description=_________________________________________________
 tags=Build 41;Interface;Items;Language/Translation;Misc;Weapons
-visibility=unlisted
+visibility=public
