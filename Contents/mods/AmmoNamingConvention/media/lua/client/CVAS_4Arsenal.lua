@@ -1,22 +1,6 @@
 require("CVAS_1Tweakers");
 if getActivatedMods():contains("Arsenal(26)GunFighter[MAIN MOD 2.0]") then
 
-TweakItemCVAS("Base.Bullets9mmBox","DisplayCategory","AmmoBox");
-TweakItemCVAS("Base.9mmClip","DisplayCategory","AmmoBox");
-TweakItemCVAS("Base.Bullets45Box","DisplayCategory","AmmoBox");
-TweakItemCVAS("Base.45Clip","DisplayCategory","AmmoBox");
-TweakItemCVAS("Base.Bullets44Box","DisplayCategory","AmmoBox");
-TweakItemCVAS("Base.44Clip","DisplayCategory","AmmoBox");
-TweakItemCVAS("Base.Bullets38Box","DisplayCategory","AmmoBox");
-TweakItemCVAS("Base.ShotgunShells","DisplayCategory","AmmoBox");
-TweakItemCVAS("Base.ShotgunShellsBox","DisplayCategory","AmmoBox");
-TweakItemCVAS("Base.223Box","DisplayCategory","AmmoBox");
-TweakItemCVAS("Base.223Clip","DisplayCategory","AmmoBox");
-TweakItemCVAS("Base.308Box","DisplayCategory","AmmoBox");
-TweakItemCVAS("Base.308Clip","DisplayCategory","AmmoBox");
-TweakItemCVAS("Base.556Box","DisplayCategory","AmmoBox");
-TweakItemCVAS("Base.556Clip","DisplayCategory","AmmoBox");
-TweakItemCVAS("Base.M14Clip","DisplayCategory","AmmoBox");
 TweakItemCVAS("Base.AmmoCan30_22","DisplayCategory","Container");
 TweakItemCVAS("Base.AmmoCan30_57","DisplayCategory","Container");
 TweakItemCVAS("Base.AmmoCan30_380","DisplayCategory","Container");

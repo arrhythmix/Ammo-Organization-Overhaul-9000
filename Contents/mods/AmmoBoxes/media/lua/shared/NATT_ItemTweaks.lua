@@ -1,3 +1,4 @@
+---@diagnostic disable: duplicate-index
 require 'NATT_SupportedMods'
 
 local attachments = {
@@ -34,11 +35,7 @@ local attachments = {
 	Wine2= "Bottle",
 	WineEmpty2= "Bottle",
 	WineWaterFull= "Wine",
-	BeerEmpty= "Bottle",
-	BeerWaterFull= "Bottle",
-
 	HandTorch= "Flashlight",
-
 	Doll= "Doll",
 	Spiffo= "Plushie",
 	BorisBadger= "PAWSPlushie",
@@ -82,7 +79,6 @@ local attachments = {
 	Tote = "ContainerTote",
 	Handbag = "Container",
 	FirstAidKit = "Container",
-	Lunchbox = "Container",
 	Lunchbox2 = "Container",
     AmmunitionBox = "Container",
 	EmptySandbag = "ContainerSack",
@@ -146,7 +142,6 @@ local staticModels = {
 	Tote = "TotesBag_Ground",
 	Handbag = "Handbag_Ground",
 	FirstAidKit = "LunchBoxMedic_Ground",
-	Lunchbox = "LunchBox_Ground",
 	Lunchbox2 = "LunchBox2_Ground",
 	EmptySandbag = "SandBag_Ground",
 	SackCabbages = "SandBag_Ground",
@@ -264,7 +259,8 @@ if isModActivated(NATTmods.McPhisto2051) then
 	Tweaker("McPhisto2051's_Backpacks.Bag_MilitaryBagUp05","IconsForTexture", "AliceBag_Camo;AliceBag_Camo_Desert;AliceBag_Camo_Urban");
 end
 
-if isModActivated(NATTmods.AmmoBoxes9000) then
+if isModActivated(NATTmods.AmmunitionMod) then
 	Tweaker("AmmunitionMod.Ammunition_Box","IconsForTexture", "Ammobox");
-
+	Tweaker("AmmunitionMod.Ammunition_Box","StaticModel", "Ammunition_Box");
+    Tweaker("AmmunitionMod.Ammunition_Box","AttachmentType", "Container");
 end
