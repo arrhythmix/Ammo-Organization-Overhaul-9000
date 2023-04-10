@@ -259,7 +259,7 @@ if isModActivated(NATTmods.McPhisto2051) then
 	Tweaker("McPhisto2051's_Backpacks.Bag_MilitaryBagUp05","IconsForTexture", "AliceBag_Camo;AliceBag_Camo_Desert;AliceBag_Camo_Urban");
 end
 
-if isModActivated(NATTmods.AmmoBoxes9000) then
+if isModActivated(NATTmods.AmmunitionMod) then
 	Tweaker("AmmunitionMod.Ammunition_Box","IconsForTexture", "Ammobox");
     Tweaker("AmmunitionMod.Ammunition_Box","AttachmentType", "Container");
 end

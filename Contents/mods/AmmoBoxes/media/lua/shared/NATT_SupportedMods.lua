@@ -22,5 +22,5 @@ NATTmods = {
 	SurvivalTailor= "stSurvTlr",
 	SurvivalTailorRB= "stSurvTlrRB",
 	UltimateBag = "Ultimate",
-    AmmoBoxes9000 = "AmmoBoxes9000",
+    AmmunitionMod = "AmmunitionMod",
 }
