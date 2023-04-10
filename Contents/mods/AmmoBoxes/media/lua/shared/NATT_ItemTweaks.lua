@@ -261,5 +261,6 @@ end
 
 if isModActivated(NATTmods.AmmunitionMod) then
 	Tweaker("AmmunitionMod.Ammunition_Box","IconsForTexture", "Ammobox");
+	Tweaker("AmmunitionMod.Ammunition_Box","StaticModel", "Ammunition_Box");
     Tweaker("AmmunitionMod.Ammunition_Box","AttachmentType", "Container");
 end
