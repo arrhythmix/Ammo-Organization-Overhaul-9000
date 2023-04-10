@@ -183,4 +183,10 @@ ItemName_Base.40HERound = "40mm HE Gernade",
 ItemName_Base.AmmoCan50_HE = "40mm HE Grenade Medium Ammo Canister",
 ItemName_Base.40INCRound = "40mm INC Gernade",
 ItemName_Base.AmmoCan50_INC = "40mm INC Grenade Medium Ammo Canister",
+
+-- Naming Convention Overwrite for AmmunitionMod
+ItemName_AmmunitionMod.545x39Ammo_Ammunition_Case = "5.45x39mm CSTO Case of 10 Boxes",
+ItemName_AmmunitionMod.762x39Ammo_Ammunition_Case = "7.62x39mm CSTO Case of 10 Boxes",
+ItemName_AmmunitionMod.762x54RAmmo_Ammunition_Case = "7.62x54mmR CSTO Case of 10 Boxes",
+
 }
