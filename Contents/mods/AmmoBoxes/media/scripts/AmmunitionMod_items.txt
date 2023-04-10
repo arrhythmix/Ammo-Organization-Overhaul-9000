@@ -19,7 +19,7 @@ module AmmunitionMod
 		Capacity				=	15,
 		DisplayName				=	Ammunition Box,
 		DisplayCategory 		=   Container,
-		Icon					=	Ammobox,
+		Icon					=	Ammo,
 		MetalValue				=	15,
 		ReplaceInSecondHand		=	Bag_AmmunitionBox_LHand holdingbagleft,
 		ReplaceInPrimaryHand	=	Bag_AmmunitionBox_RHand holdingbagright,
@@ -29,7 +29,7 @@ module AmmunitionMod
 	item 9mmAmmo_Ammunition_Case
 		{
 		DisplayName				=	Case of 9x19mm Bullets,
-		DisplayCategory 		=   AmmoBox,
+		DisplayCategory 		=   Ammo,
 		Weight					=	4.5,
 		Type					=	Normal,
 		Icon					=	Cardboard_Case_01,
@@ -39,7 +39,7 @@ module AmmunitionMod
 	item 45Ammo_Ammunition_Case
 		{
 		DisplayName				=	Case of .45 ACP Bullets,
-		DisplayCategory 		=   AmmoBox,
+		DisplayCategory 		=   Ammo,
 		Weight					=	5.8,
 		Type					=	Normal,
 		Icon					=	Cardboard_Case_01,
@@ -49,7 +49,7 @@ module AmmunitionMod
 	item 44Ammo_Ammunition_Case
 		{
 		DisplayName				=	Case of .44 Magnum Bullets,
-		DisplayCategory 		=   AmmoBox,
+		DisplayCategory 		=   Ammo,
 		Weight					=	6.3,
 		Type					=	Normal,
 		Icon					=	Cardboard_Case_01,
@@ -59,7 +59,7 @@ module AmmunitionMod
 	item 38Ammo_Ammunition_Case
 		{
 		DisplayName				=	Case of .38 Special Bullets,
-		DisplayCategory 		=   AmmoBox,
+		DisplayCategory 		=   Ammo,
 		Weight					=	5.4,
 		Type					=	Normal,
 		Icon					=	Cardboard_Case_01,
@@ -69,7 +69,7 @@ module AmmunitionMod
 	item ShotgunShell_Ammunition_Case
 		{
 		DisplayName				=	Case of 12 Gauge Shotgun Shells,
-		DisplayCategory 		=   AmmoBox,
+		DisplayCategory 		=   Ammo,
 		Weight					=	6.75,
 		Type					=	Normal,
 		Icon					=	Cardboard_Case_02,
@@ -79,7 +79,7 @@ module AmmunitionMod
 	item 223_Ammunition_Case
 		{
 		DisplayName				=	Case of .223 REM Bullets,
-		DisplayCategory 		=   AmmoBox,
+		DisplayCategory 		=   Ammo,
 		Weight					=	2.7,
 		Type					=	Normal,
 		Icon					=	Cardboard_Case_03,
@@ -89,7 +89,7 @@ module AmmunitionMod
 	item 308_Ammunition_Case
 		{
 		DisplayName				=	Case of .308 WIN Bullets,
-		DisplayCategory 		=   AmmoBox,
+		DisplayCategory 		=   Ammo,
 		Weight					=	4.5,
 		Type					=	Normal,
 		Icon					=	Cardboard_Case_03,
@@ -99,7 +99,7 @@ module AmmunitionMod
 	item 556_Ammunition_Case
 		{
 		DisplayName				=	Case of 5.56 Bullets,
-		DisplayCategory 		=   AmmoBox,
+		DisplayCategory 		=   Ammo,
 		Weight					=	2.7,
 		Type					=	Normal,
 		Icon					=	Cardboard_Case_03,
@@ -109,7 +109,7 @@ module AmmunitionMod
 	item 22LRAmmo_Ammunition_Case
 		{
 		DisplayName				=	Case of .22 LR Bullets,
-		DisplayCategory 		=   AmmoBox,
+		DisplayCategory 		=   Ammo,
 		Weight					=	4.5,
 		Type					=	Normal,
 		Icon					=	Cardboard_Case_01,
@@ -119,7 +119,7 @@ module AmmunitionMod
 	item 57x28Ammo_Ammunition_Case
 		{
 		DisplayName				=	Case of 5.7x28mm NATO Bullets,
-		DisplayCategory 		=   AmmoBox,
+		DisplayCategory 		=   Ammo,
 		Weight					=	4.5,
 		Type					=	Normal,
 		Icon					=	Cardboard_Case_03,
@@ -129,7 +129,7 @@ module AmmunitionMod
 	item 380ACPAmmo_Ammunition_Case
 		{
 		DisplayName				=	Case of .380 ACP Bullets,
-		DisplayCategory 		=   AmmoBox,
+		DisplayCategory 		=   Ammo,
 		Weight					=	3.6,
 		Type					=	Normal,
 		Icon					=	Cardboard_Case_01,
@@ -139,7 +139,7 @@ module AmmunitionMod
 	item 357MAGAmmo_Ammunition_Case
 		{
 		DisplayName				=	Case of .357 MAG Bullets,
-		DisplayCategory 		=   AmmoBox,
+		DisplayCategory 		=   Ammo,
 		Weight					=	5.85,
 		Type					=	Normal,
 		Icon					=	Cardboard_Case_01,
@@ -149,7 +149,7 @@ module AmmunitionMod
 	item 45LCAmmo_Ammunition_Case
 		{
 		DisplayName				=	Case of .45 Long Colt Bullets,
-		DisplayCategory 		=   AmmoBox,,
+		DisplayCategory 		=   Ammo,,
 		Weight					=	6.3,
 		Type					=	Normal,
 		Icon					=	Cardboard_Case_03,
@@ -159,7 +159,7 @@ module AmmunitionMod
 	item 4570Ammo_Ammunition_Case
 		{
 		DisplayName				=	Case of .45-70 Govt. Bullets,
-		DisplayCategory 		=   AmmoBox,
+		DisplayCategory 		=   Ammo,
 		Weight					=	4.65,
 		Type					=	Normal,
 		Icon					=	Cardboard_Case_03,
@@ -169,7 +169,7 @@ module AmmunitionMod
 	item 50MAGAmmo_Ammunition_Case
 		{
 		DisplayName				=	Case of .500 MAG Bullets,
-		DisplayCategory 		=   AmmoBox,
+		DisplayCategory 		=   Ammo,
 		Weight					=	4.65,
 		Type					=	Normal,
 		Icon					=	Cardboard_Case_01,
@@ -179,7 +179,7 @@ module AmmunitionMod
 	item 410gAmmo_Ammunition_Case
 		{
 		DisplayName				=	Case of .410 Gauge Shotgun Shells,
-		DisplayCategory 		=   AmmoBox,
+		DisplayCategory 		=   Ammo,
 		Weight					=	5.85,
 		Type					=	Normal,
 		Icon					=	Cardboard_Case_02,
@@ -189,7 +189,7 @@ module AmmunitionMod
 	item 20SSAmmo_Ammunition_Case
 		{
 		DisplayName				=	Case of 20 Gauge Shotgun Shells,
-		DisplayCategory 		=   AmmoBox,
+		DisplayCategory 		=   Ammo,
 		Weight					=	6.3,
 		Type					=	Normal,
 		Icon					=	Cardboard_Case_02,
@@ -199,7 +199,7 @@ module AmmunitionMod
 	item 10SSAmmo_Ammunition_Case
 		{
 		DisplayName				=	Case of 10 Gauge Shotgun Shells,
-		DisplayCategory 		=   AmmoBox,
+		DisplayCategory 		=   Ammo,
 		Weight					=	7.2,
 		Type					=	Normal,
 		Icon					=	Cardboard_Case_02,
@@ -209,7 +209,7 @@ module AmmunitionMod
 	item 4SSAmmo_Ammunition_Case
 		{
 		DisplayName				=	Case of 4 Gauge Shotgun Shells,
-		DisplayCategory 		=   AmmoBox,
+		DisplayCategory 		=   Ammo,
 		Weight					=	5.85,
 		Type					=	Normal,
 		Icon					=	Cardboard_Case_02,
@@ -219,7 +219,7 @@ module AmmunitionMod
 	item 545x39Ammo_Ammunition_Case
 		{
 		DisplayName				=	Case of 5.45x39mm Bullets,
-		DisplayCategory 		=   AmmoBox,
+		DisplayCategory 		=   Ammo,
 		Weight					=	3.6,
 		Type					=	Normal,
 		Icon					=	Cardboard_Case_03,
@@ -229,7 +229,7 @@ module AmmunitionMod
 	item 762x39Ammo_Ammunition_Case
 		{
 		DisplayName				=	Case of 7.62x39mm Bullets,
-		DisplayCategory 		=   AmmoBox,
+		DisplayCategory 		=   Ammo,
 		Weight					=	3.6,
 		Type					=	Normal,
 		Icon					=	Cardboard_Case_03,
@@ -239,7 +239,7 @@ module AmmunitionMod
 	item 762x51Ammo_Ammunition_Case
 		{
 		DisplayName				=	Case of 7.62x51mm NATO Bullets,
-		DisplayCategory 		=   AmmoBox,
+		DisplayCategory 		=   Ammo,
 		Weight					=	4.5,
 		Type					=	Normal,
 		Icon					=	Cardboard_Case_03,
@@ -249,7 +249,7 @@ module AmmunitionMod
 	item 762x54RAmmo_Ammunition_Case
 		{
 		DisplayName				=	Case of 7.62x54mmR Bullets,
-		DisplayCategory 		=   AmmoBox,
+		DisplayCategory 		=   Ammo,
 		Weight					=	4.85,
 		Type					=	Normal,
 		Icon					=	Cardboard_Case_03,
@@ -259,7 +259,7 @@ module AmmunitionMod
 	item 3006SPRGAmmo_Ammunition_Case
 		{
 		DisplayName				=	Case of .30-06 Springfield Bullets,
-		DisplayCategory 		=   AmmoBox,
+		DisplayCategory 		=   Ammo,
 		Weight					=	5.0,
 		Type					=	Normal,
 		Icon					=	Cardboard_Case_03,
@@ -269,7 +269,7 @@ module AmmunitionMod
 	item 50BMGAmmo_Ammunition_Case
 		{
 		DisplayName				=	Case of .50 Cal BMG Bullets,
-		DisplayCategory 		=   AmmoBox,
+		DisplayCategory 		=   Ammo,
 		Weight					=	4.5,
 		Type					=	Normal,
 		Icon					=	Cardboard_Case_03,
@@ -279,7 +279,7 @@ module AmmunitionMod
 	item 40HEAmmo_Ammunition_Case
 		{
 		DisplayName				=	Case of 40mm HE Grenades,
-		DisplayCategory 		=   AmmoBox,
+		DisplayCategory 		=   Ammo,
 		Weight					=	2.0,
 		Type					=	Normal,
 		Icon					=	Cardboard_Case_03,
@@ -289,7 +289,7 @@ module AmmunitionMod
 	item 40INCAmmo_Ammunition_Case
 		{
 		DisplayName				=	Case of 40mm Incendiary Grenades,
-		DisplayCategory 		=   AmmoBox,
+		DisplayCategory 		=   Ammo,
 		Weight					=	2.0,
 		Type					=	Normal,
 		Icon					=	Cardboard_Case_03,

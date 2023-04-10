@@ -5,8 +5,8 @@ IGUI_ItemCat_GunMag = "Ammunition",
 IGUI_ItemCat_AmmoBox = "Ammunition",
 IGUI_ItemCat_AmmoShell = "Ammunition",
 IGUI_ItemCat_AmmoCan = "Ammunition",
-IGUI_ItemCat_Ammunition = "Ammunition",
 IGUI_ItemCat_WepAmmo = "Ammunition",
 IGUI_ItemCat_WepAmmoMag = "Ammunition",
+IGUI_ItemCat_Ammunition = "Ammunition",
 
 }
