@@ -19,7 +19,7 @@ module AmmunitionMod
 		Capacity				=	15,
 		DisplayName				=	Ammunition Box,
 		DisplayCategory 		=   Container,
-		Icon					=	Ammo,
+		Icon					=	Ammobox,
 		MetalValue				=	15,
 		ReplaceInSecondHand		=	Bag_AmmunitionBox_LHand holdingbagleft,
 		ReplaceInPrimaryHand	=	Bag_AmmunitionBox_RHand holdingbagright,
